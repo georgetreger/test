@@ -1,0 +1,46 @@
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+ }
+
+
+ body{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+     text-align: center;
+ }
+
+ header, nav, main, footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+ }
+
+
+ header footer{
+    position: sticky;
+ }
+
+ nav{
+    padding-top: 1rem;
+    background-color: red;
+ }
+ main{
+    flex-grow: 1;
+ }
+
+ header{
+    
+    top: 0;
+    background-color: black;
+
+ }
+
+ footer{
+    bottom: 0;
+ }
