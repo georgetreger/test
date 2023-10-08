@@ -158,6 +158,7 @@ display: block;
    
 /* nav */
 nav .fa-bars{
+  background-color: #BA0021;
   line-height: 50px;
    display: none;
    width: 3.5rem;
@@ -165,7 +166,7 @@ nav .fa-bars{
    margin-top: 0.5rem;
    margin-left: 2rem;
    margin-bottom: 1rem;
-   color: #BA0021; 
+   color: lightslategray; 
    text-align: center;
 
 }
