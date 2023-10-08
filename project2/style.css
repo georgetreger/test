@@ -340,7 +340,7 @@ nav .fa-bars{
          display: block;
           /* margin-top: 0.7rem;  */
          cursor: pointer;
-         background-color: var(--bs-danger);
+         background-color: #BA0021;
          border-radius: 8px;
          border: 1px solid var(--bs-gray);
         }
