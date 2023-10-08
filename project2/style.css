@@ -165,8 +165,7 @@ nav .fa-bars{
    margin-top: 0.5rem;
    margin-left: 2rem;
    margin-bottom: 1rem;
-   color: var(--bs-light);
-   /* border: 1px solid darkgray; */
+   color: #BA0021; 
    text-align: center;
 
 }
