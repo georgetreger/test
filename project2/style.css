@@ -162,9 +162,7 @@ nav .fa-bars{
    display: none;
    width: 3.5rem;
    font-size: 2rem;
-   /* padding-top: 0.6rem;
-   padding-bottom: 0.5rem; */
-   
+   margin-top: 0.5rem;
    margin-left: 2rem;
    margin-bottom: 1rem;
    color: var(--bs-light);
@@ -236,7 +234,7 @@ nav .fa-bars{
     bottom: 0;
     background-color: var(--bs-h1-header);
     font-size: 0.5rem;
-    
+     padding-bottom: 1.5rem;
  }
   
 
@@ -355,11 +353,11 @@ nav .fa-bars{
           margin-bottom: 2rem;
         }
         .main-container{
-          width: 28rem;
+          width: 22rem;
           height: 100%;
         }
     .main-container img{
-      width: 28rem;
+      width: 22rem;
          height: 11rem;
     }
     p{
