@@ -379,36 +379,7 @@ h6 span{
           font-size: 1rem;
          }
          /* hall */
-         .container-hall{
-            height: 100px;
-            margin-top: 7rem;
-            display: flex;
-            justify-content: center;
-          
-         }
-         .our-h a{
-        font-size: 2rem;
-        font-family: sans-serif;
-        color: black;
-        margin-top: 3rem;
-        margin-left: -1rem;
-        padding: 0.5rem;
-         }
-         .hall-content1{
-          display: flex;
-          justify-content: center;
-            gap: 2rem;
-          height: 500px;
-         }
-         .price-1{
-          background-color: var(--h-streamer);
-          padding: 2.2rem;
-          margin-top: -0.5rem;
-         }
-         .photo{
-          width: 400px;
-           height: 300px;
-         }
+       
          
   main{
     flex-grow: 1;
@@ -495,17 +466,5 @@ h6 span{
     flex-direction: column;
    }
    
-   .container-hall{
-    margin-top: 95rem;
-  
-   }
-   .photo{
-    width: 385px;
-   }
-   .hall-content1{
-    flex-direction: column;
-    margin-left: 1.5rem;
-      width: 385px;
-   }
  
   }
