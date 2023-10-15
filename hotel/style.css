@@ -458,7 +458,7 @@ h6 span{
       }
       .logo h6{
    display: block;
-  
+       margin-left: -0.7rem;
       }
       
       .fa-bars{
@@ -507,7 +507,5 @@ h6 span{
     margin-left: 1.5rem;
       width: 390px;
    }
-   .our-hall{
-    margin-top: 10rem;
-   }
+ 
   }
