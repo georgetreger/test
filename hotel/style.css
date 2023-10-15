@@ -504,7 +504,10 @@ h6 span{
    }
    .hall-content1{
     flex-direction: column;
-    margin-left: 1.7rem;
+    margin-left: 1.5rem;
       width: 390px;
+   }
+   .our-hall{
+    margin-top: 10rem;
    }
   }
