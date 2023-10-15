@@ -57,6 +57,7 @@
 
   header{
     top: 0;
+    z-index: 2;
   }
 
   header, footer{
@@ -339,9 +340,18 @@ h6 span{
           height: 2px;
           margin-left: 3.3rem;
          }
+         .line2{
+          background-color: var(--h-confetii);
+          width: 5rem;
+          height: 2px;
+          margin-left: 2.5rem;
+         }
+
          .img-container{
           display: flex;
-          margin: 1rem;
+          /* margin: 1rem; */
+          margin-top: 1rem;
+          margin-left: 1rem;
         
          }
          .img{
@@ -368,10 +378,38 @@ h6 span{
          h6{
           font-size: 1rem;
          }
+         /* hall */
          .container-hall{
-          padding: 7rem;
-
+            height: 100px;
+            margin-top: 6rem;
+            display: flex;
+            justify-content: center;
+          
          }
+         .our-h a{
+        font-size: 2rem;
+        font-family: sans-serif;
+        color: black;
+        margin-top: 3rem;
+        margin-left: -1rem;
+        padding: 0.5rem;
+         }
+         .hall-content1{
+          display: flex;
+          justify-content: center;
+            gap: 2rem;
+          height: 500px;
+         }
+         .price-1{
+          background-color: var(--h-streamer);
+          padding: 2.2rem;
+          margin-top: -0.5rem;
+         }
+         .photo{
+          width: 400px;
+           height: 300px;
+         }
+         
   main{
     flex-grow: 1;
   }
@@ -420,7 +458,7 @@ h6 span{
       }
       .logo h6{
    display: block;
-      margin-left: -0.9rem;
+  
       }
       
       .fa-bars{
@@ -452,5 +490,21 @@ h6 span{
    }
    .underline3{
     margin-left: 1.4rem;
+   }
+   .review{
+    flex-direction: column;
+   }
+   
+   .container-hall{
+    margin-top: 95rem;
+  
+   }
+   .photo{
+    width: 430px;
+   }
+   .hall-content1{
+    flex-direction: column;
+    margin-left: 2rem;
+      width: 430px;
    }
   }
