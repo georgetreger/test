@@ -500,12 +500,12 @@ h6 span{
   
    }
    .photo{
-    width: 390px;
+    width: 380px;
    }
    .hall-content1{
     flex-direction: column;
     margin-left: 1.5rem;
-      width: 390px;
+      width: 385px;
    }
  
   }
