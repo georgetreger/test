@@ -352,7 +352,7 @@ h6 span{
           /* margin: 1rem; */
           margin-top: 1rem;
           margin-left: 1rem;
-        
+            
          }
          .img{
           width: 95%;
@@ -380,7 +380,9 @@ h6 span{
          }
          /* hall */
        
-         
+         .hala-container{
+          padding: 20rem;
+         }
   main{
     flex-grow: 1;
   }
