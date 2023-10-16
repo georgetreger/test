@@ -151,7 +151,7 @@
   }
 
   .show-menu{
-    height: 12rem;
+    height: 18.5rem;
     
   }
   .menu-links a{
@@ -279,110 +279,9 @@ h6 span{
           font-size: 1.2rem;
          }
 
-         .hall-container{
-          height: 100vh;
-          display: flex;
-          justify-content: center;
-        
-         }
-         
-         .hotel-eben{
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-           margin: 3.5rem;
-         }
-
-         h5, span{
-          font-size: 3.5rem;
-          color: black;
-          font-weight: bold;
-         }
-         .underline-container{
-          display: flex;
-          justify-content: center;
-         }
-         .room-line{
-          flex-direction: column;
-         }
-         .underline1{
-          background-color: var(--h-streamer);
-          width: 10rem;
-          height: 2px;
-          margin-top: 0.2rem;
-         }
-         .underline2{
-          background-color: var(--h-streamer);
-          width: 8rem;
-          height: 2px;
-          margin-left: -2rem;
-          margin-top: 0.2rem;
-         }
-         .underline3{
-          background-color: var(--h-streamer);
-          width: 8rem;
-          height: 2px;
-          margin-left: 4rem;
-          margin-top: 0.2rem;
-         }
-         .line-wrap{
-          margin-top: 1rem;
-         }
-         .room-down a{
-          font-size: 2rem;
-          color: black;
-          margin-right: 0.8rem;
-          font-weight: bold;
-         }
-         .line{
-          background-color: var(--h-confetii);
-          width: 4.5rem;
-          height: 2px;
-          margin-left: 3.3rem;
-         }
-         .line2{
-          background-color: var(--h-confetii);
-          width: 5rem;
-          height: 2px;
-          margin-left: 2.5rem;
-         }
-
-         .img-container{
-          display: flex;
-          /* margin: 1rem; */
-          margin-top: 1rem;
-          margin-left: 1rem;
-            
-         }
-         .img{
-          width: 95%;
-          height: 400px;
-         }
-         
-         .price{
-          margin-top: -0.5rem;
-          width: 95%;
-          height: 5rem;
-          background-color: var(--h-streamer);
-           display: flex;
-           justify-content: center;
-           align-items: center;
-         }
-         small{
-          position: absolute;
-          margin-top: -10rem;
-          margin-left: -10rem;
-          font-size: 1.5rem;
-          color: var(--h-ballon);
-         }
-         h6{
-          font-size: 1rem;
-         }
          /* hall */
        
-         .hala-container{
-          padding: 20rem;
-         }
+         
   main{
     flex-grow: 1;
   }
@@ -429,6 +328,15 @@ h6 span{
         display: inline;
       
       }
+       .show-menu a{
+          margin-top: 1rem;
+          /* padding: 0.9rem 0.9rem; */
+          font-size: 1.5rem;
+        
+       }
+       .nav-link, a{
+         padding-top: 1rem;
+       }
       .logo h6{
    display: block;
        margin-left: -0.7rem;
