@@ -199,7 +199,7 @@ h6 span{
        .welcome-container{
         display: grid;
         place-items: center;
-        background: url('./images/sweem.jpg');
+        background: url('./images/michu-dang-quang-unItqGJIlRY-unsplash.jpg');
         background-size: cover;
          background-position: center;  
         width: 100%;
@@ -210,23 +210,64 @@ h6 span{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 70%;
+        height: 70%;
+        border-radius: 0.5rem;
+        background-color: #333;
+        opacity: 0.9;
         flex-direction: column;
         flex-wrap: wrap;
+        
        }
         h1{
           font-family: 'Roboto', sans-serif;
-          font-size: 2.5rem;
-          color: var(--h-ballon);
+          font-size: 5.5rem;
+          margin-bottom: 1rem;
+          color: #eee;
           text-shadow: 4px 5px 6px rgba(0,0,0,0.5);
           filter: brightness(10px);
         }
+        .welcome p{
+          font-size: 1.5rem;
+          padding-bottom: 0.5rem;
+          color: #eee;
+        }
+          .explore-container{
+            display: flex;
+            gap: 0.5rem;
+            
+          }
          .explore{
           margin-top: 1rem;
           display: flex;
+          justify-content: center;
           gap: 0.8rem;
-          width: 11rem;
+          width: 10rem;
           padding: 0.5rem;
-          border: 1px solid #eee;
+          /* border: 1px solid #eee; */
+          background-color: var(--h-streamer);
+         }
+         .explore2{
+          margin-top: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.8rem;
+          width: 10rem;
+          padding: 0.5rem;
+          background-color: var(--h-confetii);
+          /* border: 1px solid #eee; */
+          
+         }
+         .explore a, h2{
+          
+         }
+         .explore2 h2{
+          
+         }
+         .welcome small{
+           color: #eee;
+              font-size: 1.3rem;
          }
          h2{
           color: var(--h-ballon);
@@ -354,8 +395,24 @@ h6 span{
         flex-direction: column;
         height: 25rem;
         gap: 1rem;
-      }
-   .img-container{
+       }
+       .welcome{
+        width: 80%;
+        height: 60%;
+        padding: 2rem;
+        margin-bottom: 1.5rem;
+       }
+       .explore, a, h2{
+          padding-bottom: 0.3rem;
+          
+       }
+          
+         
+       h1{
+        font-size: 2.5rem;
+       }
+      
+   /*.img-container{
     flex-direction: column;
   
     margin: 1rem;
@@ -373,7 +430,7 @@ h6 span{
     margin-left: 1.4rem;
    }
    .review{
-    flex-direction: column;
+    flex-direction: column; */
    }
    
  
