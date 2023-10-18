@@ -119,6 +119,8 @@
 }
 .search-fa{
   cursor: pointer;
+  margin: auto;
+  font-size: 2rem;
 }
 .search::placeholder{
   padding: 1rem;
@@ -141,13 +143,11 @@
     margin-left: 2rem;
   }
   .menu-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    font-size: 1.5rem;
-  font-family: sans-serif;
-  padding: 1rem;
+  display: flex;
+  margin: auto;
+  gap: 2rem;
+  /* font-size: 2.5rem; */
+  padding: auto;
   }
 
   .show-menu{
@@ -157,6 +157,7 @@
   .menu-links a{
     color: black;
    font-weight: bold; 
+   font-size: 2rem;
   }
   .nav-link:hover{
     
@@ -173,11 +174,10 @@
   }
  .fa-bars{
   display: flex;
-    /* margin-top: 1.1rem; */
     font-size: 2rem;
-   padding: 1rem;
+   padding: auto;
    font-size: 2.5rem;
-    margin-left: 1.9rem;
+    margin: auto;
     color: var(--h-confetii);
     display: none;
     cursor: pointer;
@@ -222,10 +222,9 @@ h6 span{
         h1{
           font-family: 'Roboto', sans-serif;
           font-size: 5.5rem;
-          margin-bottom: 1rem;
           color: #eee;
           text-shadow: 4px 5px 6px rgba(0,0,0,0.5);
-          filter: brightness(10px);
+    
         }
         .welcome p{
           font-size: 1.5rem;
@@ -243,8 +242,7 @@ h6 span{
           justify-content: center;
           gap: 0.8rem;
           width: 10rem;
-          padding: 0.5rem;
-          /* border: 1px solid #eee; */
+          padding: auto;
           background-color: var(--h-streamer);
          }
          .explore2{
@@ -256,29 +254,46 @@ h6 span{
           width: 10rem;
           padding: 0.5rem;
           background-color: var(--h-confetii);
-          /* border: 1px solid #eee; */
           
+         }
+         .email{
+          padding: 1rem;
          }
         
          .welcome small{
            color: #eee;
               font-size: 1.3rem;
          }
-         h2{
+           /* explore session */
+         .explore2 h2{
+          padding: auto;
           color: var(--h-ballon);
          }
-         .fa-arrow-right{
-           margin-top: 0.5rem;
-           color: var(--h-ballon);
+         .explore h2{
+           font-family: sans-serif;
+          font-weight: bold;
+          margin-top: 0.5rem;
+          color: var(--h-ballon);
          }
+             /* select */
+         
               .select{
-                
           display: flex;
           justify-content: center;
           align-items: center;
          }
+         .select1{
+          margin: auto;
+         }
+         .select2{
+          margin: auto;
+         }
+         .input, .select-type{
+            opacity: 0.5;
+            
+         }
          .select-container{
-          /* flex-wrap: wrap; */
+          
            display: flex;
            justify-content: center;
            align-items: center;
@@ -290,9 +305,11 @@ h6 span{
             margin-top: -2rem;
             box-shadow:  5px 6px 8px rgba(0,0,0,0.4);
          }
+            /* booking */
          .book-b{
           background-color: var(--h-confetii);
           padding: 0.5rem;
+          margin: auto;
           width: 6rem;
           text-align: center;
           border-radius: 0.5rem;
@@ -301,6 +318,8 @@ h6 span{
           color: var(--h-ballon);
           font-size: 1.3rem;
          }
+
+                /* input */
          .input{
           font-size: 1.1rem;
           height: 1.8rem;
@@ -311,8 +330,9 @@ h6 span{
            padding-left: 0.5rem;
          }
          .check-out, label, li{
-          margin-left: 0.9rem;
           font-size: 1.2rem;
+          padding: 0.5rem;
+           margin: auto;
          }
 
          /* hall */
@@ -366,16 +386,16 @@ h6 span{
       }
        .show-menu a{
           margin-top: 1rem;
-          /* padding: 0.9rem 0.9rem; */
           font-size: 1.5rem;
         
        }
        .nav-link, a{
          padding-top: 1rem;
+         
        }
       .logo h6{
    display: block;
-       margin-left: -0.7rem;
+       margin: auto;
       }
       
       .fa-bars{
@@ -388,46 +408,22 @@ h6 span{
       }
       .select-container{
         flex-direction: column;
-        height: 25rem;
+        height: 28rem;
         gap: 1rem;
        }
        .welcome{
-        width: 80%;
-        height: 60%;
-        padding: 2rem;
-        margin-bottom: 1.5rem;
-        margin-left: -0.4rem;
+        width: 96%;
+        height: 45%;
+        padding: auto;
+        margin: auto;
        }
-       .explore, a, h2{
-          padding-bottom: 0.4rem;
-          
-       }
-          
          
+       
        h1{
         font-size: 2.5rem;
        }
-      
-   /*.img-container{
-    flex-direction: column;
   
-    margin: 1rem;
-   }
-   .wrap-img{
-    margin: 1rem;
-    margin-right: -1rem;
-   }
-   .underline1,
-   .underline2,
-   .underline3{
-      width: 5rem;
-   }
-   .underline3{
-    margin-left: 1.4rem;
-   }
-   .review{
-    flex-direction: column; */
    }
    
  
-  }
+  
