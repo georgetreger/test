@@ -29,7 +29,16 @@
    --h-confetii: #ff7f50;
     --h-ballon: #fffacd;
     --h-streamer: #f0e68c;
-     
+    --main-color: #ff0;
+    --light-white: rgba(255, 255, 255, 0.5);
+    --light-black: rgba(0, 0, 0, 0.3);
+    --light-bg: rgba(255, 255, 255, 0.1);
+    --white: #fff;
+    --orange1: #d57d1f;
+    --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    --font-family: "Poppins", sans-serif;
+    --orange: #4d088691;
+    --black: rgba(67, 33, 74, 0.945);
   }
 
   *{
@@ -46,7 +55,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-   
+   background-color: #e1e1e1;
   }
 
   nav, main, footer, header{
@@ -163,7 +172,7 @@
   }
 
   .show-menu{
-    height: 22rem;
+    height: 23rem;
     
   }
   .menu-links a{
@@ -211,7 +220,7 @@ h6 span{
        .welcome-container{
         display: grid;
         place-items: center;
-        background: url('./images/michu-dang-quang-unItqGJIlRY-unsplash.jpg');
+        background: url('./images/asia-culturecenter-COWf-5ZtZ6w-unsplash.jpg');
         background-size: cover;
          background-position: center;  
         width: 100%;
@@ -314,6 +323,7 @@ h6 span{
            width: 85%;
             height: 5rem;
             border-radius: 0.5rem;
+            padding: 1rem;
             margin-top: -2rem;
             box-shadow:  5px 6px 8px rgba(0,0,0,0.4);
          }
@@ -348,13 +358,27 @@ h6 span{
          }
 
          /* hall */
+
+         .gallary{
+            padding-top: 2rem;
+          margin: 1rem;
+          display: flex;
+           justify-content: center;
+           align-items: center;
+         }
+
+         .gallary a, h6{
+          font-size: 2rem;
+          color: var(--h-confetii);
+         }
        
          .hall-container1{
-
+              
              height: 100vh;
              display: flex;
               justify-content: center;
               align-items: center;
+              
          }
   
           .wrap{
@@ -368,27 +392,155 @@ h6 span{
           }
            .fa-chevron-left,
            .fa-chevron-right{
-             color: black;
-             font-size: 1.5rem;
+             color: var(--h-confetii);
+             font-size: 2.5rem;
              cursor: pointer;
+             display: block;
+             transform: scale(0.9);
+           }
+
+           
+           .fa-chevron-right:hover{
+             transition: 0.3s;
+              transform: scale(1);
+           }
+           .fa-chevron-left:hover{
+             transition: 0.3s;
+              transform: scale(1);
            }
           .hall-mg{
-            width: 920px;
-            height: 400px;
+            padding-top: auto;
+            width: 1090px;
+            height: 500px;
             margin-bottom: -0.3rem;
+          }
+          
+          .img-text-container{
+            flex-direction: column;
+            background-color: var(--h-streamer);
           }
            
           .text-container{
-             background-color: var(--h-confetii);
-             width: 920px;
              height: 5rem;
              margin: auto;
-             opacity: 0.10;
+             display: flex;
+             justify-content: center;
+             align-items: center;
           }
-  footer{
+          .text{
+            flex-wrap: wrap;
+            font-size: 2.5rem;
+            color: black;
+          }
+
+             /* about session */
+
+             .about-container{
+                height: 600px;
+                margin-top: 2rem;
+
+             }
+               
+             .about-wrap{
+               flex-direction: column;
+             }
+             .about{
+              height: 400px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+             }
+
+             .btn-container{
+              display: flex;
+              justify-content: center;
+              margin-top: 3.5rem;
+              gap: 1rem;
+             }
+
+            button{
+            margin-top: 1.5rem;
+            }
+             .img1{ 
+              width: 100%;
+              height: 300px;
+               margin-top: 0.2rem;
+               transform: scale(0.9);
+            }
+
+            .img1:hover{
+              transition: 0.3s;
+              transform: scale(1);
+            }
+
+             .container1{
+              border-radius: 0.5rem;
+                margin: auto;
+              padding: 1rem;
+              flex-direction: column;
+              background-color: #fff;
+              height: 440px;
+                width: 350px;
+                opacity: 1;
+             }
+             .container2{
+              border-radius: 0.5rem;
+                margin: auto;
+              padding: 1rem;
+              flex-direction: column;
+              background-color: #fff;
+              height: 440px;
+                width: 350px;
+                opacity: 1;
+             }
+             .container3{
+              border-radius: 0.5rem;
+                margin: auto;
+              padding: 1rem;
+              flex-direction: column;
+              background-color: #fff;
+              height: 440px;
+                width: 350px;
+                opacity: 1;
+             }
+              /* .text-down{
+               
+               height: 110px;
+             width: 378px; 
+
+             }  */
+             .stars{
+              margin: auto;
+              padding-top: 0.3rem;
+             }
+             .stars i{
+              color: var(--h-confetii);
+             }
+             .price{
+              padding-top: 0.5rem;
+              
+             }
+             .price i,small{
+              font-size: 1.7rem;
+             }
+             .book-now{
+              background-color: var(--h-confetii);
+               width: 7rem;
+               text-align: center;
+             }
+             .book-now a{
+              color: var(--h-ballon);
+             }
+
+       footer{
     background-color: #272c30;
     bottom: 0;
   }
+
+       /* footer */
+       
+
+
 
   /* mobile */
 
@@ -468,7 +620,31 @@ h6 span{
           
        }
       .text-container{
-        width: 86%;
+        width: 85%;
+      }
+      .text{
+        text-align: center;
+        /* font-size: 1rem; */
+      }
+      .about-container{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+      }
+      .about{
+        flex-direction: column;
+        
+      }
+      .container1{
+        margin-top: 1.7rem;
+        margin-bottom: 1rem;
+      }
+      .container2,
+      .container3{
+        display: none;
+      }
+
+      .btn-container{
+        margin-top: 3rem;
       }
    }
    
