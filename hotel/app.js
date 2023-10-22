@@ -34,11 +34,27 @@ const menuEl = document.querySelector('.menu-links')
 
   const textEl = document.querySelector('.text');
   const imgEl = document.querySelector('.hall-mg');
-  console.log(imgEl);
+  
   const chevronLeft = document.querySelector('.fa-chevron-left');
   const chevronRight = document.querySelector('.fa-chevron-right');
-  
-     //   button-fa //  
+        
+                  // fa-left and fa-right //
+   const faLeft = document.querySelector('.fa-left');
+   const faRight = document.querySelector('.fa-right');
+     const aboutEl = document.querySelector('.about')
+
+             // A & //
+
+            const questions = document.querySelectorAll('.question')
+                        
+                            questions.forEach((question)=>{
+                                   const btn = question.querySelector('.question-btn');
+                                     btn.addEventListener('click', ()=>{
+                                          question.classList.toggle('show-text')
+                                     })   
+                            })
+                        
+     //   button-fa // 
 faEl.addEventListener('click', ()=>{
      menuEl.classList.toggle('show-menu')
 })
@@ -47,6 +63,16 @@ searchEl.addEventListener('click', ()=>{
      search.style.display = 'block'
 })
 
+           // fa-left and fa-right //
+     faLeft.addEventListener('click', ()=>{
+      aboutEl.style.transform = "translate(-2%)"    
+     })
+     faRight.addEventListener('click', ()=>{
+            
+           aboutEl.style.transform = "translate(1%)"
+     })
+
+                 
      
 //    event //
 
