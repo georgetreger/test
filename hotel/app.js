@@ -65,11 +65,11 @@ searchEl.addEventListener('click', ()=>{
 
            // fa-left and fa-right //
      faLeft.addEventListener('click', ()=>{
-      aboutEl.style.transform = "translate(-2%)"    
+      // aboutEl.style.transform = "translate(-2%)"    
      })
      faRight.addEventListener('click', ()=>{
             
-           aboutEl.style.transform = "translate(1%)"
+           
      })
 
                  
