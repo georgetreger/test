@@ -540,9 +540,7 @@ h6 span{
                  align-items: center;
              }
              .img{
-              width: 90vw;
-              margin: 50px auto 0;
-              max-width: 620px;
+              width: 100%;
 
              }
                /* end here */
@@ -919,6 +917,17 @@ h6 span{
               align-items: center;
               flex-direction: column;
               height: 800px;
+            }
+            .image-container{
+              height: 300px;
+            }
+            .imge{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .mg{
+              width:90%;
             }
         }
    
