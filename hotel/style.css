@@ -376,6 +376,9 @@ h6 span{
           padding: 0.5rem;
            margin: auto;
          }
+         .input{
+          opacity: 0.5;
+         }
 
          /* hall */
 
@@ -856,7 +859,9 @@ h6 span{
         margin: auto;
        }
          
-       
+       .welcome p{
+        margin-left: 1rem;
+       }
        h1{
         font-size: 2.5rem;
        }
