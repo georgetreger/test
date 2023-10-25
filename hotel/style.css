@@ -84,7 +84,7 @@
       box-shadow: 4px 5px 6px 8px rgba(0,0,0,0.1);
 
   }
-
+     /* header */
   .header-container{
     font-family: sans-serif;
      display: flex;
@@ -164,6 +164,9 @@
     font-size: 1.8rem;
     margin-left: 2rem;
   }
+  /* ends here */
+
+  /* nav start here */
   .menu-links{
   display: flex;
   margin: auto;
@@ -173,16 +176,16 @@
   }
 
   .show-menu{
-    height: 23rem;
+    height: 16rem;
     
   }
   .menu-links a{
     color: black;
    font-weight: bold; 
-   font-size: 2rem;
+   font-size: 1.3rem;
   }
-  .nav-link:hover{
-    
+  .nav-link a:hover{
+
      text-decoration: underline;
      color: var(--h-confetii)
     
@@ -217,6 +220,8 @@ h6 span{
     color: var(--h-ballon);
 }
 
+  /* ends here */
+
       /* welcome */
        .welcome-container{
         display: grid;
@@ -244,15 +249,22 @@ h6 span{
         h1{
           font-family: 'Roboto', sans-serif;
           font-size: 5.5rem;
-          color: #eee;
+          color: var(--h-confetii);
           text-shadow: 4px 5px 6px rgba(0,0,0,0.5);
     
         }
         .welcome p{
           font-size: 1.5rem;
           padding-bottom: 0.5rem;
-          color: #eee;
+          color: var(--h-ballon);
         }
+
+        .welcome small{
+          color: var(--h-streamer);
+             font-size: 1.3rem;
+        }
+            /* ends here */
+
           .explore-container{
             display: flex;
             gap: 0.5rem;
@@ -281,11 +293,11 @@ h6 span{
          .email{
           padding: 1rem;
          }
-        
-         .welcome small{
-           color: #eee;
-              font-size: 1.3rem;
-         }
+          .input2{
+          
+
+          }
+         
            /* explore session */
          .explore2 h2{
           padding: auto;
@@ -310,7 +322,11 @@ h6 span{
          .select2{
           margin: auto;
          }
-         .input, .select-type{
+         .input2{
+          margin-top: -0.5rem;
+         }
+         
+         .input .select-type{
             opacity: 0.5;
             
          }
@@ -327,7 +343,9 @@ h6 span{
             padding: 1rem;
             margin-top: -2rem;
             box-shadow:  5px 6px 8px rgba(0,0,0,0.4);
-         }
+         }  
+         /* ends here */
+
             /* booking */
          .book-b{
           background-color: var(--h-confetii);
@@ -350,7 +368,8 @@ h6 span{
           border: none;
          }
          .input::placeholder{
-           padding-left: 0.5rem;
+          padding: 1rem;
+           
          }
          .check-out, label, li{
           font-size: 1.2rem;
@@ -539,10 +558,14 @@ h6 span{
                  justify-content: center;
                  align-items: center;
              }
-             .img{
+             .mg{
               width: 100%;
-
+              transform: scale(0.9);
              }
+               .mg:hover{
+                transform: scale(1);
+               }
+               
                /* end here */
             .video-container{
               width: 100%;
